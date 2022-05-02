@@ -93,3 +93,24 @@ body {
     box-shadow: 0 0 20px var(--clr),
     0 0 60px var(--clr);
 }
+
+footer {
+    position: absolute;
+    top: 460px;
+    width: 570px;
+}
+
+.comander {
+    width: 570px;
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 100px;
+    background: rgb(103, 103, 196);
+    border: none;
+    border-radius: 2px;
+    color:#fff;
+    cursor: pointer;
+}

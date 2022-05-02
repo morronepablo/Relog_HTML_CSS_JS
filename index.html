@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
     <div id="time">
         <div class="circle" style="--clr: #ff2972;">
             <div class="dots hr_dot"></div>
@@ -37,19 +38,23 @@
             <div id="ampm">AM</div>
         </div>
     </div>
-    <div class="button">
-        <button onclick="funcUp()"> up </button>
-    </div>
-    <div class="button">
-        <button onclick="funcPlay()"> play </button>
-    </div>
-    <div class="button">
-        <button onclick="funcPause()"> pause </button>
-    </div>
-    <div class="button">
-        <button onclick="funcDown()"> down </button>
-    </div>
 
     <script src="index.js"></script>
 </body>
+<footer>
+    <div class="comander">
+        <div class="button">
+            <button onclick="funcPlay()"> play </button>
+        </div>
+        <div class="button">
+            <button onclick="funcPause()"> pause </button>
+        </div>
+        <div class="button">
+            <button onclick="funcUp()"> up </button>
+        </div>
+        <div class="button">
+            <button onclick="funcDown()"> down </button>
+        </div>
+    </div>
+</footer>
 </html>
